@@ -94,7 +94,7 @@ namespace Sample
             char[] ar = s.ToCharArray();
             Array.Reverse(ar);
             char fin = ar[2];
-            return Convert.ToInt32(fin);
+            return Convert.ToInt32(Convert.ToString(fin));
         }
 
         /**
